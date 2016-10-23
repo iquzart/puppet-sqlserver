@@ -1,0 +1,25 @@
+{
+  "name": "gildas-sqlserver",
+  "version": "0.2.7",
+  "author": "Gildas CHERRUEL",
+  "summary": "Microsoft SQL Server installer and provider",
+  "license": "Apache-2.0",
+  "source": "https://github.com/gildas/puppet-sqlserver",
+  "project_page": "https://github.com/gildas/puppet-sqlserver",
+  "issues_url": "https://github.com/gildas/puppet-sqlserver/issues",
+  "dependencies": [
+    {"name":"puppetlabs/stdlib","version_requirement":">=2.7.0 <6.0.0"},
+    {"name":"puppetlabs/powershell","version_requirement":">=2.0.0 <6.0.0"},
+    {"name":"gildas/firewall","version_requirement":">=0.1.0 <1.0.0"}
+  ],
+  "data_provider": null,
+  "description": "Microsoft SQL Server installer and provider for PuppetLabs",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "windows",
+      "operatingsystemrelease": [
+        "2012 R2"
+      ]
+    }
+  ]
+}
