@@ -1,9 +1,6 @@
 {
   "summary": "Microsoft SQL Server installer and provider",
   "license": "Apache-2.0",
-  "source": "https://github.com/gildas/puppet-sqlserver",
-  "project_page": "https://github.com/gildas/puppet-sqlserver",
-  "issues_url": "https://github.com/gildas/puppet-sqlserver/issues",
   "dependencies": [
     {"name":"puppetlabs/stdlib","version_requirement":">=2.7.0 <6.0.0"},
     {"name":"puppetlabs/powershell","version_requirement":">=2.0.0 <6.0.0"},
